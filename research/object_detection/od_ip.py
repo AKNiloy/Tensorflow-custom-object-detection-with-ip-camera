@@ -10,7 +10,7 @@ import os
 import six.moves.urllib as urllib
 import sys
 import tarfile
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zipfile
 
 from collections import defaultdict
@@ -28,9 +28,10 @@ ipstream = ipstream()
 ipstream.getIPAddress()
 ipstream.initializeStream()
 ipstream.start()
-
+tf.disable_v2_behavior()
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
+tf.gfile=tf.io.gfile
 
 
 # ## Object detection imports
