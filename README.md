@@ -8,11 +8,11 @@ Python multi-threading library was used to optimize the rstp stream from the ip 
 
 ### Installation guides
 
-*Use anaconda.
-*install tensorflow using : conda install tensorflow-gpu
-*It will take care of all the necessary drivers to run tensorflow-gpu ...
-*clone this repository.
-*install dependencies of tensorflow. follow this guide : <a href='https://github.com/AKNiloy/Tensorflow-custom-object-detection-with-ip-camera/blob/master/research/object_detection/g3doc/installation.md'>TF_INstall </a>
+*Use anaconda.<br>
+*install tensorflow using : conda install tensorflow-gpu<br>
+*It will take care of all the necessary drivers to run tensorflow-gpu ... <br>
+*clone this repository. <br>
+*install dependencies of tensorflow. follow this guide : <a href='https://github.com/AKNiloy/Tensorflow-custom-object-detection-with-ip-camera/blob/master/research/object_detection/g3doc/installation.md'>TF_INstall </a> <br>
 
 go to Tensorflow-custom-object-detection-with-ip-camera\research & run:
 protoc object_detection/protos/*.proto --python_out=.
