@@ -796,12 +796,10 @@ def visualize_boxes_and_labels_on_image_array(
         if agnostic_mode:
           box_to_color_map[box] = 'DarkOrange'
         elif track_ids is not None:
-          prime_multipler = _get_multiplier_for_color_randomness()
-          box_to_color_map[box] = STANDARD_COLORS[
-              (prime_multipler * track_ids[i]) % len(STANDARD_COLORS)]
+          #prime_multipler = _get_multiplier_for_color_randomness()
+          box_to_color_map[box] = 'blue'
         else:
-          box_to_color_map[box] = STANDARD_COLORS[
-              classes[i] % len(STANDARD_COLORS)]
+          box_to_color_map[box] = 'blue'
 
   # Draw all boxes onto image.
   for box, color in box_to_color_map.items():
