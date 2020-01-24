@@ -8,26 +8,26 @@ Python multi-threading library was used to optimize the rstp stream from the ip 
 
 ### Installation guides
 
-*Use anaconda.<br>
-*install tensorflow using : conda install tensorflow-gpu<br>
-*It will take care of all the necessary drivers to run tensorflow-gpu ... <br>
-*clone this repository. <br>
-*install dependencies of tensorflow. follow this guide : <a href='https://github.com/AKNiloy/Tensorflow-custom-object-detection-with-ip-camera/blob/master/research/object_detection/g3doc/installation.md'>TF_INstall </a> <br>
+* Use anaconda.<br>
+* install tensorflow using : conda install tensorflow-gpu<br>
+* It will take care of all the necessary drivers to run tensorflow-gpu ... <br>
+* clone this repository. <br>
+* install dependencies of tensorflow. follow this guide : <a href='https://github.com/AKNiloy/Tensorflow-custom-object-detection-with-ip-camera/blob/master/research/object_detection/g3doc/installation.md'>TF_INstall </a> <br>
 
-go to Tensorflow-custom-object-detection-with-ip-camera\research & run:
-protoc object_detection/protos/*.proto --python_out=.
-then run: python setup.py build
-& then : python setup.py install
-object detection module will be ready to be deployed.
+* go to Tensorflow-custom-object-detection-with-ip-camera\research & run: <br>
+protoc object_detection/protos/*.proto --python_out=. <br>
+* then run: python setup.py build <br>
+* & then : python setup.py install <br>
+* object detection module will be ready to be deployed.
 
-you need to install opencv & imutils library too
-pip install imutils
-pip install opencv-contrib-python
+you need to install opencv & imutils library too <br>
+pip install imutils <br>
+pip install opencv-contrib-python <br>
 
-go to: Tensorflow-custom-object-detection-with-ip-camera\research\object_detection
-**open ip_camera.py & edit it to give your own ipcamera's rstp address.
+go to: Tensorflow-custom-object-detection-with-ip-camera\research\object_detection <br>
+**open ip_camera.py & edit it to give your own ipcamera's rstp address.**
 
-**run : python od_ip.py
+**run : python od_ip.py** <br>
 you should be good to go.
 
 
