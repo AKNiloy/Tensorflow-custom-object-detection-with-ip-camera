@@ -25,7 +25,6 @@ import imutils
 
 
 ipstream = ipstream()
-ipstream.getIPAddress()
 ipstream.initializeStream()
 ipstream.start()
 tf.disable_v2_behavior()
