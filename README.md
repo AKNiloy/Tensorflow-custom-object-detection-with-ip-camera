@@ -30,7 +30,7 @@ go to: Tensorflow-custom-object-detection-with-ip-camera\research\object_detecti
 **run : python od_ip.py** <br>
 you should be good to go. <br>
 
-###Application
+### Application <br>
 ** Piracy prevention in cinema halls ** <br>
 ** Places where recording devices(mobile) are not allowed <br>
 
