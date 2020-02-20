@@ -31,8 +31,8 @@ go to: Tensorflow-custom-object-detection-with-ip-camera\research\object_detecti
 you should be good to go. <br>
 
 ### Application <br>
-** Piracy prevention in cinema halls ** <br>
-** Places where recording devices(mobile) are not allowed <br>
+* Piracy prevention in cinema halls. <br>
+* Places where recording devices(mobile) are not allowed. <br>
 
 
 ![Alt Text](https://media.giphy.com/media/el7mDLdCjF5e7ZhioK/giphy.gif)
